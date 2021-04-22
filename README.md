@@ -5,29 +5,7 @@ Install Kafka
 Install Spring
 Install Java
 Start Kafka server
-Reconmfigure properties.yml
-
-
-Docker Run
-------------------
-```docker build -t fiap/ifood .```
-
-```docker run -p 8090:8090 fiap/ifood```
-
-
-Create Order Request Image
-![Image of Create An Order](./images/CreateOrder.png)
-
-Get All Order Request Image
-![Image of Search](./images/GetAll_Orders.png)
-
- Project Code Flow Image
-![Image of Project Code Flow](./images/Code%20Flow.jpg)
-
-
-Architecture Proposal
-![Architecture Proposal](./images/ifood-arquitetura-proposta.jpg)
-
+Reconfigure properties.yml
 ```yml
 Snippets from Application.yml 
 spring.cloud.stream:
@@ -51,4 +29,26 @@ spring.cloud.stream:
     shippingEventConsumer-in-0:
       destination: shipping-events
 ```
+
+Docker Run
+------------------
+```docker build -t fiap/ifood .```
+
+```docker run -p 8090:8090 fiap/ifood```
+
+
+Create Order Request Image
+![Image of Create An Order](./images/CreateOrder.png)
+
+Get All Order Request Image
+![Image of Search](./images/GetAll_Orders.png)
+
+ Project Code Flow Image
+![Image of Project Code Flow](./images/Code%20Flow.jpg)
+
+
+Architecture Proposal
+![Architecture Proposal](./images/ifood-arquitetura-proposta.jpg)
+
+
 
