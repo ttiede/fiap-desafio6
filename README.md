@@ -15,17 +15,17 @@ docker run -p 8090:8090 fiap/ifood
 
 
 Create Order Request Image
-![Image of Create An Order](https://github.com/ttiede/fiap-desafio6/tree/main/images/CreateOrder.png)
+![Image of Create An Order](./images/CreateOrder.png)
 
 Get All Order Request Image
-![Image of Search](https://github.com/ttiede/fiap-desafio6/tree/main/images/GetAll_Orders.png)
+![Image of Search](./GetAll_Orders.png)
 
  Project Code Flow Image
-![Image of Project Code Flow](https://github.com/ttiede/fiap-desafio6/tree/main/images/Code%20Flow.jpg)
+![Image of Project Code Flow](./images/Code%20Flow.jpg)
 
 
 Architecture Proposal
-![Architecture Proposal](https://github.com/ttiede/fiap-desafio6/tree/main/images/ifood-arquitetura-proposta.jpg)
+![Architecture Proposal](./images/ifood-arquitetura-proposta.jpg)
 
 ```yml
 Snippets from Application.yml 
