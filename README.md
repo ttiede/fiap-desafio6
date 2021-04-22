@@ -10,8 +10,9 @@ Reconmfigure properties.yml
 
 Docker Run
 ------------------
-docker build -t fiap/ifood .
-docker run -p 8090:8090 fiap/ifood
+```docker build -t fiap/ifood .```
+
+```docker run -p 8090:8090 fiap/ifood```
 
 
 Create Order Request Image
