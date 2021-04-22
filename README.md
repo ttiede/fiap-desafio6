@@ -25,8 +25,7 @@ Get All Order Request Image
 
 
 Architecture Proposal
-
-![Image of Search](https://github.com/ttiede/fiap-desafio6/tree/main/images/ifood-arquitetura-proposta.jpg)
+![Architecture Proposal](https://github.com/ttiede/fiap-desafio6/tree/main/images/ifood-arquitetura-proposta.jpg)
 
 ```yml
 Snippets from Application.yml 
